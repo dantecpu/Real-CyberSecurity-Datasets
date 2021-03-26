@@ -20,12 +20,19 @@ Happy Learning!!!
  - [Industrial Control System (ICS) Cyber Attack Datasets](#-Industrial-Control-System-(ICS)-Cyber-Attack-Datasets)
  - [Canadian Institute for Cybersecurity](#-Canadian-Institute-for-Cybersecurity)
  - [Publicly available PCAP files](#-Publicly-available-PCAP-files)
+ - [Shadowbrokers EternalBlue/EternalRomance PCAP Dataset](#-Shadowbrokers-EternalBlue-EternalRomance-PCAP-Dataset)
+ - [AZSecure Data](#-AZSecure-Data)
 
-## [↑](#table-of-contents) The ADFA Intrusion Detection Datasets
+ ## [↑](#table-of-contents) The ADFA Intrusion Detection Datasets
 
-The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS.
+ADFA IDS Datasets consist of following individual IDS datasets: 
 
-https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-IDS-Datasets/
+* Network and Linux host IDS datasets:ADFA-LD-dataset, netflow-IDS-dataset, and NGIDS-DS IDS Dataset.
+* Windows based IDS dataset ADFA-WD.
+
+https://ojs.unsw.adfa.edu.au/xfiles/pdf/ADFA-IDS-Database%20License-homepage.pdf
+
+In the above PDF document you will find the two (2) links for downloading the aforementioned datasets (2017).
 
 ## [↑](#table-of-contents) Botnet and Ransomware Detection Datasets
 
@@ -139,3 +146,19 @@ _This is a list of public packet capture repositories, which are freely availabl
 * Online PCAP Services
 
 https://www.netresec.com/index.ashx?page=PcapFiles
+
+## [↑](#table-of-contents) Shadowbrokers EternalBlue EternalRomance PCAP Dataset
+
+Collected by Eric Conrad. This dataset is comprised of PCAP data from the EternalBlue and EternalRomance malware.  These PCAPs capture the actual exploits in action, on target systems that had not yet been patched to defeat to the exploits.  The EternalBlue PCAP data uses a Windows 7 target machine, whereas the EternalRomance PCAP data uses a Windows 2008r2 target machine.  Also included is EternalBlue PCAP data for a patched Windows 7 target machine showing the failed exploit. This data was collected in April 2017.
+
+https://dibbs.ai.arizona.edu/dibbs/shadowbrokers-eternalblue/ShadowbrokersEternalBlue.zip
+
+## [↑](#table-of-contents) AZSecure Data
+
+**Data Science Testbed for Security Researchers.**
+
+This portal is available to the ISI community to support research. This service started by offering browsing access to downloadable forums from the Artificial Intelligence Lab's Dark Web and Geo Web collections, which presently includes nearly 40 million postings. Each forum collection contains millions of postings from hundreds of thousands of authors, and may be in English, Arabic, French, German, Indonesian, Pashto, Russian or Urdu, depending on the forum. The repository also includes a large collection of Internet phishing websites from the University of Virginia, with collections of Escrow, Financial, and Pharmacy sites. Recent additions to the repository include hacker forums in English and Russian, Chinese underground market forums, and chat logs that can be used in the study of underground behavior and how hackers learn from each other, the formation of social networks, relationships with the underground economy, and more. The Patriot, militia, hate and linked websites collection based off the Southern Poverty Law Center’s 2009 list can be used to study rhetoric and communication, group dynamics, extreme social movements, and other topics, in information and the social sciences. 
+
+ All data sets can be downloaded freely for non-commercial education and research use.
+
+https://www.azsecure-data.org/
